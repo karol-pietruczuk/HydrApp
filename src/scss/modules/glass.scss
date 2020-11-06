@@ -1,0 +1,29 @@
+.water-glass{
+    display: block;
+    height: 280px;
+    width: 220px;
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('/src/assets/img/water-glass.svg');
+    //background-size: contain;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    position: relative;
+  }
+  
+  .water-glass__number{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 112px;
+    line-height: 131px;
+    position: absolute;
+    left: 66px;
+    right: 66px;
+    top: 114px;
+    bottom: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
