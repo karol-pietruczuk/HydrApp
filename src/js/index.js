@@ -30,6 +30,15 @@ addButton.addEventListener('click', (e) => {
     glassOfWaterNumber.innerHTML = glassNumber;
     localStorage.setItem(key, glassNumber);
 
+    glassOfWaterNumber.animate([
+        // keyframes
+        { opacity: 0.5 }, 
+        { opacity: 1 }
+      ], { 
+        // timing options
+        duration: 1000,
+        iterations: 1,
+      });
 });
 
 substractButton.addEventListener('click', (e) => {
@@ -38,4 +47,14 @@ substractButton.addEventListener('click', (e) => {
         glassOfWaterNumber.innerHTML = glassNumber;
         localStorage.setItem(key, glassNumber);
     }
+
+    glassOfWaterNumber.animate([
+        // keyframes
+        { opacity: 0.5 }, 
+        { opacity: 1 }
+      ], { 
+        // timing options
+        duration: 1000,
+        iterations: 1,
+      });
 });
