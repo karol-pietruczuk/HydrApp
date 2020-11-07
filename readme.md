@@ -8,3 +8,5 @@ Simple application to count number of water glasses you drink each day
 
 Add or substract water glass with buttons and application will remember number of water glasses each day
 
+Counter resets at midnight each day
+
