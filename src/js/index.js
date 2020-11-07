@@ -1,8 +1,8 @@
 import '../scss/main.scss';
 
 // uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
+import {registerSW} from './pwa.js';
+registerSW();
 
 /* place your code below */
 
@@ -11,8 +11,8 @@ console.log('HELLO 🚀')
 const key = new Date().toISOString().slice(0, 10); 
 
 const glassOfWaterNumber = document.querySelector('.water-glass__number-js');
-const addButton = document.querySelector('.add-js');
-const substractButton = document.querySelector('.substract-js');
+const addButton = document.querySelector('.button_add-js');
+const substractButton = document.querySelector('.button_substract-js');
 
 let glassNumber = localStorage.getItem(key);
 if (glassNumber) {
